@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    width: auto;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+}
+
+.header{
+    width: 450px;
+    border: 1px solid rgb(209, 204, 204);
+    height: 80vh;
+    position: absolute;
+    left: 32%;
+    top: 8%;
+    border-radius: 8px;
+}
+
+.google{
+    position: absolute;
+    top: 7%;
+    left: 30%;
+    text-align: center;
+}
+
+.google ul{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 10px;
+   
+
+}
+
+.google ul li{
+    display: inline-block;
+    margin-left: -6px;
+}
+
+.google p{
+    font-size: 22px;
+}
+
+.google p:last-child{
+    font-size: 15px;
+}
+
+.google p:last-child{
+    padding-top: 15px;
+    color:  #202124;
+}
+
+.section{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+
+.mail{
+    background-color: white;
+    width: 370px;
+    height: 50px;
+    border: 1px solid rgb(209, 204, 204);
+    border-radius: 5px;
+    padding: 15px 15px;
+}
+
+.mail:focus{
+    outline: none;
+    border: 2px solid #1a73e8;
+}
+
+.form{
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.form .mail-label{
+    position: absolute;
+    display:block;
+    font-size: 15px;
+    padding-left: 15px;
+    color: #5f6368;
+    overflow: hidden;
+    left: 8px;
+    top: 15px;
+    padding: 0 8px;
+}
+
+.mail:focus + .mail-label{
+    color: #1a73e8;
+    top: -6px;
+    background-color: white;
+    font-size: 12px;
+}
+
+.forget-mail{
+    text-decoration: none;
+    color: #1a73e8;
+    display: block;
+    font-weight: 600;
+    background-color: white;
+    font-size: 14px;
+    text-align: left;
+}
+
+.question{
+    margin-top: 50px;
+    font-size: 14px;
+    color: #5f6368;
+    line-height: 1.4286;
+}
+
+.question a{
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.create{
+    color: #1a73e8;
+    font-size: 14px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.create-account{
+    display: inline-block;
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.next{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-color: #1a73e8;
+    border: 1px solid rgb(209, 204, 204);
+    border-radius: 5px;
+    padding: 10px 25px;
+    place-items: right;
+    position: absolute;
+    right: 0%;
+    top: -55%;
+}
+
+.next:hover{
+    background-color: #1d69cc;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    position: absolute;
+    left: 32%;
+    bottom: 5%;
+}
+
+.langs{
+    display: inline-block;
+    border: none;
+    outline: none;
+    color: #5f6368;
+
+}
+
+.footer ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 25px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #5f6368;
+}
+
+
+
